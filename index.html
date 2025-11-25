@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Presentación - Hugo Fermín Ibarra Garza</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+            color: white;
+            padding: 50px 60px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0 0 10px 0;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        .content {
+            padding: 60px;
+            line-height: 1.8;
+        }
+        
+        .greeting {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 30px;
+        }
+        
+        .body-text {
+            font-size: 1.05em;
+            color: #555;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .highlight {
+            background: #e8f4f8;
+            border-left: 4px solid #2c5282;
+            padding: 20px 25px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .highlight h3 {
+            color: #1e3a5f;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .highlight ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .highlight li {
+            margin: 8px 0;
+            color: #555;
+        }
+        
+        .closing {
+            margin-top: 40px;
+            font-size: 1.05em;
+            color: #555;
+        }
+        
+        .signature {
+            margin-top: 40px;
+        }
+        
+        .signature-name {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        
+        .signature-title {
+            color: #777;
+            font-size: 0.95em;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 60px;
+            border-top: 3px solid #2c5282;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-icon {
+            color: #2c5282;
+            font-size: 1.2em;
+        }
+        
+        .button-container {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #2c5282;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+        
+        .button:hover {
+            background: #1e3a5f;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+            }
+            
+            .header {
+                padding: 40px 30px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 40px 30px;
+            }
+            
+            .footer {
+                padding: 30px;
+            }
+            
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Hugo Fermín Ibarra Garza</h1>
+            <div class="subtitle">Ingeniero en Electrónica y Comunicaciones</div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="greeting">Buen día,</div>
+            
+            <div class="body-text">
+                Soy Hugo Fermín, Ingeniero en Electrónica y Comunicaciones con más de 20 años de experiencia en Business Intelligence, automatización de procesos (RPA) y análisis de datos. He colaborado en sectores como banca, telecomunicaciones, farmacéutica y manufactura tecnológica, liderando proyectos de transformación digital con herramientas como QlikView, Power BI, Python, SQL, Linux y Power Automate.
+            </div>
+            
+            <div class="highlight">
+                <h3>💼 Experiencia Destacada</h3>
+                <ul>
+                    <li><strong>20+ años</strong> en Business Intelligence y análisis de datos</li>
+                    <li>Sectores: Banca, Telecomunicaciones, Farmacéutica y Manufactura</li>
+                    <li>Transferencia técnica internacional en <strong>Celestica México</strong></li>
+                    <li>Colaboración con equipos de <strong>Canadá y Tailandia</strong></li>
+                </ul>
+            </div>
+            
+            <div class="body-text">
+                Mi trayectoria incluye la transferencia técnica internacional en Celestica México, donde trabajé con ingenieros de Canadá y Tailandia, fortaleciendo mis habilidades de documentación, comunicación técnica y estandarización de procesos.
+            </div>
+            
+            <div class="body-text">
+                Me caracterizo por una rápida adaptación a nuevas tecnologías y por crear soluciones funcionales incluso bajo limitaciones técnicas. Estoy abierto a integrarme en un entorno donde pueda aportar mi experiencia en automatización, datos y mejora continua.
+            </div>
+            
+            <div class="closing">
+                Quedo a disposición para conversar sobre cómo puedo contribuir al éxito de su equipo.
+            </div>
+            
+            <div class="signature">
+                <div style="margin-bottom: 40px; color: #999;">Atentamente,</div>
+                <div class="signature-name">Hugo Fermín Ibarra Garza</div>
+                <div class="signature-title">Ingeniero en Electrónica y Comunicaciones</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>tuemail@ejemplo.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <span>+52 (123) 456-7890</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🔗</span>
+                    <span>linkedin.com/in/tuusuario</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Ciudad Apodaca, N.L., México</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button Container -->
+        <div class="button-container no-print">
+            <button class="button" onclick="window.print()">📄 Descargar como PDF</button>
+        </div>
+    </div>
+</body>
+</html>
